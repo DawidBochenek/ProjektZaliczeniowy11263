@@ -73,5 +73,7 @@
     <Build Include="Produkt\Tables\Wyposzazenie.sql" />
     <Build Include="Produkt\Tables\TypWyposazenia.sql" />
     <Build Include="Produkt\Tables\PakietLista.sql" />
+    <Build Include="Produkt\Tables\CennikWyposzazenia.sql" />
+    <Build Include="Produkt\Tables\Cennik.sql" />
   </ItemGroup>
 </Project>

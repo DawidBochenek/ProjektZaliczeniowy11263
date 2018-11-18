@@ -65,5 +65,9 @@
     <Build Include="Produkt\Tables\Marka.sql" />
     <Build Include="Security\Produkt.sql" />
     <Build Include="Security\Hr.sql" />
+    <Build Include="Produkt\Tables\TypNadwozia.sql" />
+    <Build Include="Produkt\Tables\Silnik.sql" />
+    <Build Include="Produkt\Tables\RodzajSilnika.sql" />
+    <Build Include="Produkt\Tables\Model.sql" />
   </ItemGroup>
 </Project>

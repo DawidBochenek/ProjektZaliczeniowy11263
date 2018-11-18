@@ -60,6 +60,8 @@
     <Folder Include="Produkt\" />
     <Folder Include="Produkt\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="Hr\" />
+    <Folder Include="Hr\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Produkt\Tables\Marka.sql" />
@@ -75,5 +77,7 @@
     <Build Include="Produkt\Tables\PakietLista.sql" />
     <Build Include="Produkt\Tables\CennikWyposzazenia.sql" />
     <Build Include="Produkt\Tables\Cennik.sql" />
+    <Build Include="Hr\Tables\Stanowisko.sql" />
+    <Build Include="Hr\Tables\Pracownik.sql" />
   </ItemGroup>
 </Project>

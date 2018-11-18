@@ -69,5 +69,6 @@
     <Build Include="Produkt\Tables\Silnik.sql" />
     <Build Include="Produkt\Tables\RodzajSilnika.sql" />
     <Build Include="Produkt\Tables\Model.sql" />
+    <Build Include="Produkt\Tables\Pakiet.sql" />
   </ItemGroup>
 </Project>

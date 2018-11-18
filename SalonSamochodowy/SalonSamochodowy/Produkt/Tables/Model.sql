@@ -4,9 +4,11 @@
     [TypNadwoziaId] INT          NULL,
     [SegmentId]     INT          NULL,
     [SilnikId]      INT          NULL,
-    [Pakiet]        INT          NULL,
+    [PakietId]      INT          NULL,
     [Rocznik]       DATE         NULL,
     [SurrogateKey]  INT          IDENTITY (1, 1) NOT NULL,
     PRIMARY KEY CLUSTERED ([ModelId] ASC)
 );
+
+
 

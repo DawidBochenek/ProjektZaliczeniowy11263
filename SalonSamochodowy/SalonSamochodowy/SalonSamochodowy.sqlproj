@@ -88,5 +88,8 @@
     <Build Include="Produkt\Tables\CennikUslugi.sql" />
     <Build Include="Serwis\Tables\Uslugi.sql" />
     <Build Include="Security\Serwis.sql" />
+    <Build Include="Serwis\Tables\CennikUslugi.sql" />
+    <Build Include="Produkt\Tables\Klient.sql" />
+    <Build Include="Produkt\Tables\Do.sql" />
   </ItemGroup>
 </Project>

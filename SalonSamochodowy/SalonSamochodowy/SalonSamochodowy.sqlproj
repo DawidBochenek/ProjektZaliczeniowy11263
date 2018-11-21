@@ -79,5 +79,7 @@
     <Build Include="Produkt\Tables\Cennik.sql" />
     <Build Include="Hr\Tables\Stanowisko.sql" />
     <Build Include="Hr\Tables\Pracownik.sql" />
+    <Build Include="Produkt\Tables\Segment.sql" />
+    <Build Include="Hr\Tables\Zespol.sql" />
   </ItemGroup>
 </Project>

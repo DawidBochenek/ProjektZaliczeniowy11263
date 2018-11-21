@@ -82,5 +82,6 @@
     <Build Include="Produkt\Tables\Segment.sql" />
     <Build Include="Hr\Tables\Zespol.sql" />
     <Build Include="Hr\Tables\WynagrodzeniaPracwonika.sql" />
+    <Build Include="Hr\Tables\Wyplaty.sql" />
   </ItemGroup>
 </Project>

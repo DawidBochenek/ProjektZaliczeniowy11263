@@ -62,6 +62,8 @@
     <Folder Include="Security\" />
     <Folder Include="Hr\" />
     <Folder Include="Hr\Tables\" />
+    <Folder Include="Serwis\" />
+    <Folder Include="Serwis\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Produkt\Tables\Marka.sql" />
@@ -83,5 +85,8 @@
     <Build Include="Hr\Tables\Zespol.sql" />
     <Build Include="Hr\Tables\WynagrodzeniaPracwonika.sql" />
     <Build Include="Hr\Tables\Wyplaty.sql" />
+    <Build Include="Produkt\Tables\CennikUslugi.sql" />
+    <Build Include="Serwis\Tables\Uslugi.sql" />
+    <Build Include="Security\Serwis.sql" />
   </ItemGroup>
 </Project>

@@ -64,6 +64,8 @@
     <Folder Include="Hr\Tables\" />
     <Folder Include="Serwis\" />
     <Folder Include="Serwis\Tables\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Produkt\Tables\Marka.sql" />
@@ -91,5 +93,9 @@
     <Build Include="Serwis\Tables\CennikUslugi.sql" />
     <Build Include="Produkt\Tables\Klient.sql" />
     <Build Include="Produkt\Tables\Do.sql" />
+    <Build Include="Produkt\Tables\Zamownienie.sql" />
+    <Build Include="dbo\Functions\WorkingDays.sql" />
+    <Build Include="dbo\Functions\GetEaster.sql" />
+    <Build Include="dbo\Functions\GetHolidays.sql" />
   </ItemGroup>
 </Project>

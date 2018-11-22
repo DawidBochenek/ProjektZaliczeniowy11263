@@ -7,7 +7,7 @@
     [SegmentId]     INT           NULL,
     [SilnikId]      INT           NULL,
     [PakietId]      INT           NULL,
-    [Rocznik]       DATE          NULL,
+    [Rocznik]       INT           NULL,
     PRIMARY KEY CLUSTERED ([ModelId] ASC),
     FOREIGN KEY ([MarkaId]) REFERENCES [Produkt].[Marka] ([MarkaId]) ON DELETE SET NULL,
     FOREIGN KEY ([PakietId]) REFERENCES [Produkt].[Pakiet] ([PakietId]) ON DELETE SET NULL,
@@ -15,6 +15,8 @@
     FOREIGN KEY ([SilnikId]) REFERENCES [Produkt].[Silnik] ([SilnikId]) ON DELETE SET NULL,
     FOREIGN KEY ([TypNadwoziaId]) REFERENCES [Produkt].[TypNadwozia] ([TypNadwoziaId]) ON DELETE SET NULL
 );
+
+
 
 
 

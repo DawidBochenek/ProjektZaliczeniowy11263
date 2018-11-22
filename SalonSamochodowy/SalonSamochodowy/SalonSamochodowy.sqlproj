@@ -101,5 +101,6 @@
     <Build Include="Produkt\Tables\Samochod.sql" />
     <Build Include="Hr\Tables\Typ.sql" />
     <Build Include="Hr\Tables\Premie.sql" />
+    <Build Include="Security\RapOp.sql" />
   </ItemGroup>
 </Project>

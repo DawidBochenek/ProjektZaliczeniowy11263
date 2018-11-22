@@ -87,7 +87,6 @@
     <Build Include="Hr\Tables\Zespol.sql" />
     <Build Include="Hr\Tables\WynagrodzeniaPracwonika.sql" />
     <Build Include="Hr\Tables\Wyplaty.sql" />
-    <Build Include="Produkt\Tables\CennikUslugi.sql" />
     <Build Include="Serwis\Tables\Uslugi.sql" />
     <Build Include="Security\Serwis.sql" />
     <Build Include="Serwis\Tables\CennikUslugi.sql" />
@@ -97,5 +96,8 @@
     <Build Include="dbo\Functions\WorkingDays.sql" />
     <Build Include="dbo\Functions\GetEaster.sql" />
     <Build Include="dbo\Functions\GetHolidays.sql" />
+    <Build Include="Serwis\Tables\Zamowienie.sql" />
+    <Build Include="Serwis\Tables\StatusyZamowienie.sql" />
+    <Build Include="Produkt\Tables\Samochod.sql" />
   </ItemGroup>
 </Project>

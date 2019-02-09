@@ -66,6 +66,7 @@
     <Folder Include="Serwis\Tables\" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Produkt\Tables\Marka.sql" />
@@ -102,5 +103,7 @@
     <Build Include="Hr\Tables\Typ.sql" />
     <Build Include="Hr\Tables\Premie.sql" />
     <Build Include="Security\RapOp.sql" />
+    <Build Include="dbo\Views\Disel.sql" />
+    <Build Include="dbo\Views\Benzyna.sql" />
   </ItemGroup>
 </Project>

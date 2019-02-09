@@ -2,9 +2,11 @@
     [MarkaId]  INT           NOT NULL,
     [MarkaKey] INT           IDENTITY (1, 1) NOT NULL,
     [NazwaSkr] NVARCHAR (8)  NULL,
-    [NazwaDl]  NVARCHAR (25) NULL,
+    [NazwaDl]  NVARCHAR (30) NULL,
     PRIMARY KEY CLUSTERED ([MarkaId] ASC)
 );
+
+
 
 
 

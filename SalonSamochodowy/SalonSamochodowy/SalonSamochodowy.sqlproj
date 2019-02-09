@@ -107,5 +107,6 @@
     <Build Include="dbo\Views\Disel.sql" />
     <Build Include="dbo\Views\Benzyna.sql" />
     <Build Include="dbo\Stored Procedures\NowyKlient.sql" />
+    <Build Include="dbo\Stored Procedures\NowyKlientDo.sql" />
   </ItemGroup>
 </Project>

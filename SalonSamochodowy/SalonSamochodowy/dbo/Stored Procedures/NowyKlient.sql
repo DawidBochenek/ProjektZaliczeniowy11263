@@ -11,7 +11,7 @@
 @DowodOsobistyId int
 AS
 BEGIN
-
+SET IDENTITY_INSERT Produkt.Klient ON
 INSERT INTO Produkt.Klient (KlientId,KlientKey,KlientImiePierwsze,KlientImieDrugie,KlientNazwisko,DataDodania,Telefon,EmailId,DowodOsobistyId)
 VALUES (@KlientId,@KlientKey,@KlientImiePierwsze,@KlientImieDrugie,@KlientNazwisko,@DataDodania,@Telefon,@EmailId,@DowodOsobistyId);
 END

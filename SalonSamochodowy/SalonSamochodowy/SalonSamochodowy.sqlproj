@@ -117,5 +117,6 @@
     <Build Include="Produkt\Tables\SzczegolyZamowienia.sql" />
     <Build Include="dbo\Stored Procedures\DodajSzczegolyZam.sql" />
     <Build Include="RapOp\Views\ListaSprzedanychMarek.sql" />
+    <Build Include="RapOp\Views\ModeleNieSprzedane.sql" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
     [Nazwisko]         NVARCHAR (45) NOT NULL,
     [DataUrodzenia]    DATE          NOT NULL,
     [DataZatrudnienia] DATE          NOT NULL,
-    [PESEL]            INT           NOT NULL,
+    [PESEL]            BIGINT           NOT NULL,
     [Adres]            NVARCHAR (25) NOT NULL,
     [Miasto]           INT           NOT NULL,
     [KodPocztowy]      NVARCHAR (6)  NOT NULL,

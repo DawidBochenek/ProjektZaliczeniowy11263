@@ -68,6 +68,8 @@
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Wspolne\" />
+    <Folder Include="Wspolne\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Produkt\Tables\Marka.sql" />
@@ -111,5 +113,7 @@
     <Build Include="dbo\Stored Procedures\DodajZamowienie.sql" />
     <Build Include="dbo\Stored Procedures\DodajSzczegolyZam.sql" />
     <Build Include="dbo\Stored Procedures\DodajKlienta.sql" />
+    <Build Include="Wspolne\Tables\Miasto.sql" />
+    <Build Include="Security\Wspolne.sql" />
   </ItemGroup>
 </Project>

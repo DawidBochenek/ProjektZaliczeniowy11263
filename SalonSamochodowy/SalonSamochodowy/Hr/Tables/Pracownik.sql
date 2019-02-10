@@ -5,7 +5,7 @@
     [Nazwisko]         NVARCHAR (45) NOT NULL,
     [DataUrodzenia]    DATE          NOT NULL,
     [DataZatrudnienia] DATE          NOT NULL,
-    [PESEL]            BIGINT           NOT NULL,
+    [PESEL]            BIGINT        NOT NULL,
     [Adres]            NVARCHAR (25) NOT NULL,
     [Miasto]           INT           NOT NULL,
     [KodPocztowy]      NVARCHAR (6)  NOT NULL,
@@ -19,8 +19,11 @@
     FOREIGN KEY ([StanowiskoId]) REFERENCES [Hr].[Stanowisko] ([StanowiskoId]) ON DELETE SET NULL,
     FOREIGN KEY ([ZespolId]) REFERENCES [Hr].[Zespol] ([ZespolId]) ON DELETE SET NULL,
     CONSTRAINT [Miasto] FOREIGN KEY ([Miasto]) REFERENCES [Wspolne].[Miasto] ([MiastoId]),
+    UNIQUE NONCLUSTERED ([PESEL] ASC),
     UNIQUE NONCLUSTERED ([PESEL] ASC)
 );
+
+
 
 
 

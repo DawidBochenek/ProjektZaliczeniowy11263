@@ -9,8 +9,11 @@
     [EmailId]            NVARCHAR (45) NOT NULL,
     [DowodOsobistyId]    INT           NULL,
     PRIMARY KEY CLUSTERED ([KlientId] ASC),
-    FOREIGN KEY ([DowodOsobistyId]) REFERENCES [Produkt].[Do] ([DoId]) ON DELETE SET NULL
+    FOREIGN KEY ([DowodOsobistyId]) REFERENCES [Produkt].[Do] ([DoId]) ON DELETE SET NULL,
+    UNIQUE NONCLUSTERED ([DowodOsobistyId] ASC)
 );
+
+
 
 
 

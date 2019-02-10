@@ -119,5 +119,8 @@
     <Build Include="RapOp\Views\ListaSprzedanychMarek.sql" />
     <Build Include="RapOp\Views\ModeleNieSprzedane.sql" />
     <Build Include="RapOp\Views\ListaPracownikowZamowienia.sql" />
+    <Build Include="Serwis\Tables\TypUslugi.sql" />
+    <Build Include="Serwis\Tables\SzczegolyZamowienia.sql" />
+    <Build Include="RapOp\Views\RaportDataZakonczeniaStatusDoSprawdzenia.sql" />
   </ItemGroup>
 </Project>

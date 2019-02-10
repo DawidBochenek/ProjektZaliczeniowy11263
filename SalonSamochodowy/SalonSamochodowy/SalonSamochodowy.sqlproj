@@ -113,5 +113,6 @@
     <Build Include="Wspolne\Tables\Miasto.sql" />
     <Build Include="Security\Wspolne.sql" />
     <Build Include="Produkt\Tables\SzczegolyZamowienia.sql" />
+    <Build Include="dbo\Stored Procedures\DodajSzczegolyZam.sql" />
   </ItemGroup>
 </Project>

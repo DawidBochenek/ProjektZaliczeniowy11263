@@ -108,5 +108,8 @@
     <Build Include="dbo\Views\Benzyna.sql" />
     <Build Include="dbo\Stored Procedures\NowyKlient.sql" />
     <Build Include="dbo\Stored Procedures\NowyKlientDo.sql" />
+    <Build Include="dbo\Stored Procedures\DodajZamowienie.sql" />
+    <Build Include="dbo\Stored Procedures\DodajSzczegolyZam.sql" />
+    <Build Include="dbo\Stored Procedures\DodajKlienta.sql" />
   </ItemGroup>
 </Project>

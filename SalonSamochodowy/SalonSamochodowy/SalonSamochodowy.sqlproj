@@ -126,5 +126,9 @@
     <Build Include="Serwis\Tables\HistoriaZamowienie.sql" />
     <Build Include="Serwis\Tables\HistoriaZamowienia.sql" />
     <Build Include="Serwis\Tables\HistoriaAudyt.sql" />
+    <Build Include="Serwis\Tables\HistoriaZamowienia_1.sql" />
+    <Build Include="Hr\Tables\ObecnoscId.sql" />
+    <Build Include="Hr\Tables\KartaCzasuPracyDni.sql" />
+    <Build Include="Hr\Tables\KartaCzasuPracy.sql" />
   </ItemGroup>
 </Project>

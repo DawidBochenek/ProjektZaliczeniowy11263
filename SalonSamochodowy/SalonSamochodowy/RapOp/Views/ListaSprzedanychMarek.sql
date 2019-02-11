@@ -1,8 +1,6 @@
-﻿
+﻿CREATE VIEW rapOp.ListaSprzedanychMarek AS
 
-CREATE VIEW rapOp.ListaSprzedanychMarek AS
-
-SELECT mark.NazwaSkr AS Marka, SUM(CenaSprzedazy) as SumarycznaKwotaSprzedazy, COUNT(mark.NazwaSkr) AS IloscZamowien FROM Produkt.Zamownienie as zam
+SELECT mark.NazwaSkr AS Marka, SUM(CenaSprzedazy) as SumarycznaKwotaSprzedazy, COUNT(mark.NazwaSkr) AS IloscZamowien FROM Produkt.Zamownienie as zam  with (readuncommitted)
 LEFT JOIN Produkt.Model as m on zam.ModelId=m.ModelId
 LEFT JOIN Produkt.Marka as mark on m.MarkaId=mark.MarkaId
 GROUP BY mark.NazwaSkr

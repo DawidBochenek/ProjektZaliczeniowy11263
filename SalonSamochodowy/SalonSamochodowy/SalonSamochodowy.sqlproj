@@ -124,5 +124,7 @@
     <Build Include="RapOp\Views\RaportDataZakonczeniaStatusDoSprawdzenia.sql" />
     <Build Include="RapOp\Views\Cennik.sql" />
     <Build Include="Serwis\Tables\HistoriaZamowienie.sql" />
+    <Build Include="Serwis\Tables\HistoriaZamowienia.sql" />
+    <Build Include="Serwis\Tables\HistoriaAudyt.sql" />
   </ItemGroup>
 </Project>
